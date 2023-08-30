@@ -1,3 +1,5 @@
+import { inicializarCarrinho } from "./src/meuCarrinho";
+
 const produto01 = {
   nome: "Casaco Branco",
   marca: "Zara",
@@ -83,3 +85,5 @@ for (const produtoCatalogo of catalogo) {
 
   document.getElementById("container-produto").innerHTML += cartaoProduto;
 }
+
+inicializarCarrinho();
